@@ -33,6 +33,7 @@ public class _01_RobotRace {
 				if(robotArray[j].getY()<=0) {
 					JOptionPane.showMessageDialog(null, "Robot " + (j+1) + " won!");
 					unfinished = false;
+					break;
 				}
 			}
 		}
